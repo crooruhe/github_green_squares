@@ -1,5 +1,5 @@
 eval "$(ssh-agent -s)"
-sleep 2
+sleep 1
 cd /home/code/github_green_squares
 varOne=$RANDOM
 echo $varOne
