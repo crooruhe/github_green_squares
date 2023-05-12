@@ -1,3 +1,4 @@
+#!/bin/bash
 cd /home/code/github_green_squares/ghub
 varOne=$RANDOM
 username=$1
