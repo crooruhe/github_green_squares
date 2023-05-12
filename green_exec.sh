@@ -1,10 +1,10 @@
 #!/bin/bash
 cd /home/code/github_green_squares/ghub
-varOne=$RANDOM
+var=$RANDOM
 username=$1
 pw=$2
-echo $VarOne >> README.md
+echo $var >> README.md
 sleep 1
 git add *
-git commit -m "$varOne"
+git commit -m "$var"
 git push https://$username:$pw@github.com/crooruhe/github_green_squares.git --all
